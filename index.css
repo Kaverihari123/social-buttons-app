@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.social-buttons-container1 {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.social-buttons-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.social-buttons-heading {
+  font-size: 40px;
+  font-family: Bree Serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+.social-buttons-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+  border: none;
+  border-radius: 12px;
+  background-color: #eab308;
+  height: 38px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Roboto;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.button2 {
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+  height: 38px;
+  width: 140px;
+  color: #323f4b;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-top: 15px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.button3 {
+  border: none;
+  border-radius: 12px;
+  background-color: #1d4ed8;
+  height: 38px;
+  width: 120px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-top: 15px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-buttons-container3 {
+    flex-direction: row;
+  }
+  .button1 {
+    margin: 10px;
+  }
+  .button2 {
+    margin: 10px;
+  }
+  .button3 {
+    margin: 10px;
+  }
+  .social-buttons-heading {
+    font-size: 60px;
+  }
+}
